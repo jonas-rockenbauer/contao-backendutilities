@@ -1,0 +1,68 @@
+.w25 {
+  width: calc(25% - 30px);
+  float: left;
+  height: 80px; }
+
+.widget.icon-picker {
+  height: 150px; }
+
+#iconSelector {
+  background: #CCC;
+  display: none;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px; }
+  #iconSelector #iconSearch {
+    margin-bottom: 10px; }
+  #iconSelector .inner-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 300px; }
+
+.icon-list span, #selectedIcon {
+  display: block;
+  cursor: pointer;
+  width: 150px;
+  margin: 5px 0; }
+
+#selectedIcon svg {
+  font-size: 2em; }
+
+.icon-icon1 {
+  background: #ff9600; }
+
+.icon-icon2 {
+  background: #029a9c; }
+
+.icon-icon3 {
+  background: #bada55; }
+
+.icon-icon4 {
+  background: #ee41a3; }
+
+.icon-icon5 {
+  background-color: #6843b4; }
+
+.icon-icon6 {
+  background: #feff84; }
+
+.icon-icon7 {
+  background: #ff8484; }
+
+.icon-icon8 {
+  background: #04a396; }
+
+@media only screen and (max-width: 767px) {
+  .w25 {
+    float: none;
+    width: calc(100% - 30px); } }
+
+/*# sourceMappingURL=be_elements.css.map */
