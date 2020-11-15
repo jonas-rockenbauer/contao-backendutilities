@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-This file is part of cookie backend utilities.
+This file is part of contao backend utilities.
 
 (c) Jrockenbauer
 

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "flexbox";
 
 .w25 {
     width: calc(25% - 30px);
@@ -23,8 +22,8 @@
     }
 
     .inner-box {
-        @include flexbox();
-        @include flex-wrap(wrap);
+        display: flex;
+        flex-wrap: wrap;
         overflow: auto;
         height: 300px;
     }

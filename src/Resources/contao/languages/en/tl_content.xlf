@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file datatype="php" original="src/Resources/contao/languages/en/tl_content.php" source-language="en">
+        <body>
+            <trans-unit id="tl_content.margin_top.0">
+                <source>Margin top</source>
+            </trans-unit>
+            <trans-unit id="tl_content.margin_left.0">
+                <source>Margin left</source>
+            </trans-unit>
+            <trans-unit id="tl_content.margin_right.0">
+                <source>Margin right</source>
+            </trans-unit>
+            <trans-unit id="tl_content.margin_bottom.0">
+                <source>Margin bottom</source>
+            </trans-unit>
+            <trans-unit id="tl_content.padding_top.0">
+                <source>Padding top</source>
+            </trans-unit>
+            <trans-unit id="tl_content.padding_left.0">
+                <source>Padding left</source>
+            </trans-unit>
+            <trans-unit id="tl_content.padding_right.0">
+                <source>Padding right</source>
+            </trans-unit>
+            <trans-unit id="tl_content.padding_bottom.0">
+                <source>Padding bottom</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

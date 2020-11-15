@@ -1,24 +1,24 @@
 <?php
 
 /*
- * This file is part of Contao demo bundle.
+ * This file is part of Contao backend utilities.
  *
  * (c) Jrockenbauer
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Jrockenbauer\ContaoFormconfirmation\Tests;
+namespace Jrockenbauer\ContaoBackendutilities\Tests;
 
 use Jrockenbauer\ContaoFormconfirmation\ContaoFormconfirmation;
 use PHPUnit\Framework\TestCase;
 
-class ContaoFormconfirmationTest extends TestCase
+class ContaoBackendutilitiesTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
-        $bundle = new ContaoFormconfirmation();
+        $bundle = new ContaoBackendutilities();
 
-        $this->assertInstanceOf('Jrockenbauer\ContaoFormconfirmation\ContaoFormconfirmation', $bundle);
+        $this->assertInstanceOf('Jrockenbauer\ContaoBackendutilities\ContaoBackendutilities', $bundle);
     }
 }
