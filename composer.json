@@ -1,7 +1,7 @@
 {
     "name": "jrockenbauer/contao-backendutilities",
     "type": "contao-bundle",
-    "description": "Extension for integrate an email confirmation to a Contao form",
+    "description": "Extension for add css style w25 (quarter size screen) in backend and select box for margin/padding in element and module.",
     "homepage": "https://github.com/jonas-rockenbauer",
     "license": "LGPL-3.0-or-later",
     "authors": [
